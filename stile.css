@@ -1,11 +1,10 @@
 body {
   margin: 0;
-  padding: 1em;
 }
 
 #top {
-  margin: 0%;
-  background-color: #1eb6b6ef;
+  padding: 1em;
+  background-color: #1eb6b654;
 }
 
 #titre {
@@ -27,7 +26,7 @@ p {
   flex-flow: row;
   align-content: flex-start;
 
-  background-color: coral;
+  background-color: #08415cd5;
 }
 
 #images {
@@ -35,6 +34,8 @@ p {
   grid-template: auto / repeat(3, 1fr);
 
   justify-items: center;
+
+  background-color: #cc2936;
 }
 
 .cercle {
@@ -48,6 +49,8 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  background-color: #1eb6b654;
 }
 
 #info-contact {
