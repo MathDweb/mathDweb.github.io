@@ -3,6 +3,11 @@ body {
   padding: 1em;
 }
 
+#top {
+  margin: 0%;
+  background-color: #1eb6b6ef;
+}
+
 #titre {
   font-size: 5em;
   display: flex;
@@ -21,6 +26,8 @@ p {
   display: flex;
   flex-flow: row;
   align-content: flex-start;
+
+  background-color: coral;
 }
 
 #images {
