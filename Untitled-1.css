@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+#top {
+  padding: 1em;
+  background-color: #1eb6b654;
+}
+
+#titre {
+  font-size: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+#nom {
+  font-size: 3em;
+}
+
+p {
+  padding: 1em;
+}
+
+#descriptions {
+  display: flex;
+  flex-flow: row;
+  align-content: flex-start;
+
+  background-color: #08415cd5;
+}
