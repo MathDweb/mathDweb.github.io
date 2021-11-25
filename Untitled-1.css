@@ -28,3 +28,15 @@ p {
 
   background-color: #08415cd5;
 }
+
+#presentation {
+  display: grid;
+  justify-items: center;
+
+  background-color: #cc2936;
+}
+
+#visuel {
+  height: 50em;
+  width: auto;
+}
