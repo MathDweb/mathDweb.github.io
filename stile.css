@@ -5,16 +5,17 @@ body {
 #top {
   padding: 1em;
   background-color: #1eb6b654;
+  height: 150px;
 }
-.bleuciel {
-  aspect-ratio: 900/600;
+.courbe {
+  aspect-ratio: 900/100;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.courbe {
+.bleuciel {
   background-image: url("./images/layered-waves-haikei.svg");
 }
 
@@ -40,6 +41,10 @@ p {
   background-color: #08415cd5;
 }
 
+.rouge {
+  background-image: url("./images/bleu_rouge.svg");
+}
+
 .p_descrip {
   font-size: 1.3em;
 }
@@ -58,6 +63,10 @@ p {
   width: 200px;
   border-radius: 200px;
   padding: 5em;
+}
+
+.rouge_bleu {
+  background-image: url("./images/rouge_bciel.svg");
 }
 
 footer {
