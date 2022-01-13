@@ -5,6 +5,19 @@ body {
 #top {
   padding: 1em;
   background-color: #1eb6b654;
+  height: 150px;
+}
+
+.courbe {
+  aspect-ratio: 900/100;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bleuciel {
+  background-image: url("./images/layered-waves-haikei.svg");
 }
 
 #titre {
@@ -33,6 +46,10 @@ p {
   font-size: 1.3em;
 }
 
+.rouge {
+  background-image: url("./images/bleu_rouge.svg");
+}
+
 #presentation {
   display: grid;
   justify-items: center;
@@ -44,6 +61,10 @@ p {
   padding: 10em;
   height: 35em;
   width: auto;
+}
+
+#visuel:hover img {
+  -moz-transform: scale(1.25);
 }
 
 footer {
