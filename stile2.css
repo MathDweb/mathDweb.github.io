@@ -51,16 +51,29 @@ p {
 }
 
 #presentation {
-  display: grid;
-  justify-items: center;
+  display: flex;
+  justify-content: center;
 
   background-color: #cc2936;
 }
 
-#visuel {
-  padding: 10em;
-  height: 35em;
+#zoom {
+  height: 800 px;
+  width: 850 px;
+}
+
+#image {
+  height: 85vh;
   width: auto;
+
+  display: flex;
+  align-items: center;
+}
+
+#visuel {
+  height: 60vh;
+  width: auto;
+  max-height: 560px;
 }
 
 #visuel:hover img {
